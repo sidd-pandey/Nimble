@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.darkfire.Dashboard"
+    android:id="@+id/parentLinearLayout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/child1"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Last Payment Recieved"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Payer:"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/textView8" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Id Number:"
+            android:id="@+id/textView10"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView9"
+            android:layout_alignStart="@+id/textView9" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Amount:"
+            android:id="@+id/textView11"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView10"
+            android:layout_alignStart="@+id/textView10" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/payerTextView"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9"
+            android:text="No Data" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/idnumberTextView"
+            android:layout_toEndOf="@+id/textView10"
+            android:layout_toRightOf="@+id/textView10"
+            android:layout_alignBottom="@+id/textView10"
+            android:text="No Data" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/amountTextView"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_toEndOf="@+id/textView11"
+            android:layout_toRightOf="@+id/textView11"
+            android:text="0000/-" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Paid"
+            android:id="@+id/getpaidbtn"
+            android:layout_below="@+id/amountTextView"
+            android:layout_alignStart="@id/textView8"
+            android:layout_alignEnd="@+id/textView8"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/child2"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Last Payment Made"
+            android:id="@+id/textView12"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Payee:"
+            android:id="@+id/textView13"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView12"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/textView12" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Id Number:"
+            android:id="@+id/textView14"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView13"
+            android:layout_alignStart="@+id/textView13" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Amount:"
+            android:id="@+id/textView15"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView14"
+            android:layout_alignStart="@+id/textView14" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/payeeTextView"
+            android:text="No Data"
+            android:layout_toEndOf="@+id/textView13"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_toRightOf="@+id/textView13" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/payeeIdTextView"
+            android:text="No Data"
+            android:layout_toEndOf="@+id/textView14"
+            android:layout_toRightOf="@+id/textView14"
+            android:layout_alignBottom="@+id/textView14" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/payeeAmtTextView"
+            android:text="0000/-"
+            android:layout_toEndOf="@+id/textView15"
+            android:layout_alignBottom="@+id/textView15" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Payment"
+            android:id="@+id/makepaybtn"
+            android:layout_below="@+id/textView15"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_marginTop="5dp"
+            android:layout_alignEnd="@+id/textView12" />
+    </RelativeLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/siddp_000/AndroidStudioProjects/UPIApp/app/src/main/res/layout/activity_dashboard.xml -->

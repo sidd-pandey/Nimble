@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.darkfire.PaymentFragment"
+    android:id="@+id/rlparent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl2"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wallet"
+                    android:id="@+id/textView17"
+                    android:layout_below="@+id/wallet"
+                    android:layout_alignRight="@+id/wallet"
+                    android:layout_alignLeft="@+id/wallet"
+                    android:gravity="center" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/wallet"
+                    android:src="@drawable/wallet"
+                    android:scaleType="fitXY"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl1"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History"
+                    android:id="@+id/textView16"
+                    android:layout_below="@+id/thistory"
+                    android:layout_alignRight="@+id/thistory"
+                    android:layout_alignLeft="@+id/thistory"
+                    android:gravity="center" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/thistory"
+                    android:src="@drawable/history"
+                    android:scaleType="fitXY"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:padding="5dp"
+            android:layout_gravity="center">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl3"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peers"
+                    android:id="@+id/textView18"
+                    android:layout_below="@+id/peers"
+                    android:layout_alignRight="@+id/peers"
+                    android:layout_alignLeft="@+id/peers"
+                    android:gravity="center" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/peers"
+                    android:src="@drawable/people"
+                    android:scaleType="fitXY"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/siddp_000/AndroidStudioProjects/UPIApp/app/src/main/res/layout/fragment_payment.xml -->

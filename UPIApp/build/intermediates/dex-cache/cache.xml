@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ba75da866b3d975ca7a9fbdbcd61de67932e0052">
+        <dex dex="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1-0aeddb00e0a2d9828fc4eae8711a6e9b318f3cd9.jar" />
+    </item>
+    <item
+        jar="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1-4d373ca10d36e054fb10fe9cfe3167050a3405dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\libs\core-3.2.2-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e5d0bc711402f34cd6bfc7a4d7f44dfc3bcfb73">
+        <dex dex="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\pre-dexed\debug\core-3.2.2-SNAPSHOT-6ce3c9904aa1713cde60bb2ef1c163f66b066a25.jar" />
+    </item>
+    <item
+        jar="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\pre-dexed\debug\classes-179e35ff80c7abd474ad9dd4f640293990ce9764.jar" />
+    </item>
+    <item
+        jar="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c449a8b23f9b989a814220af893445b382a0b50d">
+        <dex dex="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\pre-dexed\debug\classes-cecf72163748a4f4de4e38fe13308bc847705728.jar" />
+    </item>
+    <item
+        jar="C:\Users\siddp_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="C:\Users\siddp_000\AndroidStudioProjects\UPIApp\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1-d1be00c87f82306549441bb41cd0bcef5f5eef8e.jar" />
+    </item>
+
+</items>
